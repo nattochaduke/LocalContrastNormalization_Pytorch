@@ -64,4 +64,4 @@ class LocalContrastNormalization(object):
 
 
     def __repr__(self):
-        return self.__class__.__name__ + '(kernel_size={0}, threshold={1})'.format(self.kernel_size, self.threshold)
+        return self.__class__.__name__ + '(kernel_size={0})'.format(self.kernel_size)
