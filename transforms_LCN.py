@@ -12,9 +12,8 @@ __all__ = ["LCN_Pinto"]
 class LCN_Pinto(object):
     """
     Conduct a local contrast normalization algorithm by
-    Jarrett, Kevin & Kavukcuoglu, Koray & Ranzato, Marc'Aurelio & Lecun, Yann. (2009).
-     What is the Best Multi-Stage Architecture for Object Recognition?.
-     In Proc Intl Conf on Comput Vis. 12. 10.1109/ICCV.2009.5459469.
+    Pinto, N., Cox, D. D., and DiCarlo, J. J. (2008). Why is real-world visual object recognition hard?
+    PLoS Comput Biol , 4 . 456 (they called this "Local input divisive normalization")
 
     the kernel size is controllable by argument kernel_size.
     """
